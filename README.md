@@ -17,4 +17,4 @@ The dataset used in this tutorial comprises transcripts of testimonies found in 
 ## How to use
 You can either dowload the repository and run the Jupyter notebook on your local device (you might need to install any libraries that are not already installed in your device) or read the contents of the [notebook](https://github.com/mdermentzi/ehri-topic-modelling-guide/blob/main/USHMM_Oral_Testimonies_Topic_Modelling.ipynb) without running it.  
 
-You can also view the notebook in [Google Colab](https://colab.research.google.com/drive/1XgcO9cHaBrMwfO1bjmkd0tFuw0ExHXdc?usp=sharing) but it will not be possible to import the provide datasets.
+You can also view the notebook in [Google Colab](https://colab.research.google.com/drive/1XgcO9cHaBrMwfO1bjmkd0tFuw0ExHXdc?usp=sharing) but it will not be possible to import the provided datasets.

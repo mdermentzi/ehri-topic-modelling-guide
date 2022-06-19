@@ -12,12 +12,18 @@ Topic modelling is a technique by which documents within a corpus are clustered 
 The specific type of topic modelling we’re looking at is called latent Dirichlet allocation (LDA), subject of an influential paper by David Blei et al (2003).  
 
 ## The Dataset/Putting Together the Corpus
-The dataset used in this tutorial comprises transcripts of testimonies found in the oral history collections of the USHMM. Specifically, we were interested in testimonies the transcripts of which were in English. Since there is not a ready-to-download dataset that includes these transcripts, we had to use a web scraping tool to put together a list of the links to the metadata of the testimonies that were of interest to us, including their associated transcripts. After obtaining the transcript and other metadata of each testimony, we had to filter out the dataset to remove the records that had restrictions on their access or use. We also removed any records with empty transcripts or with transcripts that consisted only of some automatically generated headers. Finally, through trial and error, it came to our attention that one of the resulting topics included words in German or Dutch, such as the word "nicht". By searching for the word "nicht" within the transcripts, we were able to locate at least three transcripts in languages other than English that infiltrated our dataset, which was supposed to comprise transcripts only in English. These entries were also removed. The resulting collection of transcripts forms the corpus that this tutorial is based on.
+We were on the lookout for datasets that would be easily accessible and, for convenience, predominantly in English. One such dataset was the USHMM extensive collection of [oral history testimonies](https://www.ushmm.org/online/oral-history/detail.php?SurveyId=226&letter=U&ord=127), for which there are a considerable number of textual transcripts. The museum’s total collection consists of over 80,703 testimonies, 41,695 of which are available in English, with 2,894 of them listing a transcript.  
+
+Since there is not yet a ready-to-download dataset that includes these transcripts, we had to construct our own. Using a web scraping tool, we managed to create a list of the links pointing to the metadata (including transcripts) of the testimonies that were of interest to us. After obtaining the transcript and other metadata of each of these testimonies, we were able to create our dataset and curate it to remove any unwanted entries. For example, we made sure to remove entries with restrictions on access or use. We also removed entries with transcripts that consisted only of some automatically generated headers and entries which turned out to be in languages other than English. The remaining 1,873 transcripts form the corpus of this tutorial — a small, but still decently sized dataset.
 
 ## How to use
 You can either dowload the repository and run the Jupyter notebook on your local device (you might need to install any libraries that are not already installed in your device) or read the contents of the [notebook](https://github.com/mdermentzi/ehri-topic-modelling-guide/blob/main/USHMM_Oral_Testimonies_Topic_Modelling.ipynb) without running it.  
 
 You can also view the notebook in [Google Colab](https://colab.research.google.com/drive/1XgcO9cHaBrMwfO1bjmkd0tFuw0ExHXdc?usp=sharing) but it will not be possible to import the provided datasets.
+
+## Visualisations
+[Link to the LDAvis for the three-topic model](/model_3_topics.html)
+[Link to the LDAvis for the six-topic model](/model_6_topics.html)
 
 ## References:
 Blei, D. M. et al. (2003) Latent dirichlet allocation. Journal of machine Learning research. 3 (Jan), 993–1022.

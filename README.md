@@ -22,8 +22,8 @@ You can either dowload the repository and run the Jupyter notebook on your local
 You can also view the notebook in [Google Colab](https://colab.research.google.com/drive/1XgcO9cHaBrMwfO1bjmkd0tFuw0ExHXdc?usp=sharing) but it will not be possible to import the provided datasets.
 
 ## Visualisations
-[Link to the LDAvis for the three-topic model](/model_3_topics.html)  
-[Link to the LDAvis for the six-topic model](/model_6_topics.html)
+[Link to the LDAvis for the three-topic model](https://mdermentzi.github.io/ehri-topic-modelling-guide/model_3_topics.html)  
+[Link to the LDAvis for the six-topic model](https://mdermentzi.github.io/ehri-topic-modelling-guide/model_6_topics.html)
 
 ## References:
 Blei, D. M. et al. (2003) Latent dirichlet allocation. Journal of machine Learning research. 3 (Jan), 993–1022.

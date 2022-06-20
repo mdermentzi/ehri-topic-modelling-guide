@@ -1,7 +1,7 @@
-# Exploratory Topic Modelling Using Python
+# Exploratory Topic Modelling in Python
 ##### by Mike Bryant and Maria Dermentzi 
 
-This notebook aims to walk readers through the process of topic modelling in Python and accompanies the article (to be) published in the European Holocaust Research Infrastructure (EHRI) Document Blog entitled "Exploratory Topic Modelling Using Python".
+This notebook aims to walk readers through the process of topic modelling in Python and accompanies the article (to be) published in the European Holocaust Research Infrastructure (EHRI) Document Blog entitled "Exploratory Topic Modelling in Python".
 
 #### Credits:
 The transcripts that form the corpus in this tutorial were obtained through the [United States Holocaust Memorial Museum](https://www.ushmm.org/) (USHMM).

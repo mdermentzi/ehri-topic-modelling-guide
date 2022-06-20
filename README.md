@@ -21,7 +21,7 @@ The datasets produced through this tutorial are available on Zenodo:
 https://doi.org/10.5281/zenodo.6670234
 
 ## How to use
-You can either dowload the repository and run the Jupyter notebook on your local device (you might need to install any libraries that are not already installed in your device - see [requirements.txt](/requirements.txt)) or run it on Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mdermentzi/ehri-topic-modelling-guide/HEAD?labpath=USHMM_Oral_Testimonies_Topic_Modelling.ipynb).  
+You can either dowload the repository and run the Jupyter notebook on your local device (you might need to install any libraries that are not already installed in your device - see [requirements.txt](/requirements.txt)), run it on Binder [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mdermentzi/ehri-topic-modelling-guide/HEAD?labpath=USHMM_Oral_Testimonies_Topic_Modelling.ipynb), or simply click on the [USHMM_Oral_Testimonies_Topic_Modelling.ipynb](/USHMM_Oral_Testimonies_Topic_Modelling.ipynb) file on Github.
 
 ## Visualisations
 [Link to the LDAvis for the three-topic model](https://mdermentzi.github.io/ehri-topic-modelling-guide/model_3_topics.html#topic=1&lambda=0.6&term=)  
